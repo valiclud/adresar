@@ -12,6 +12,7 @@ import java.io.Serializable;
  */
 public abstract class AbstractId implements Serializable, Comparable<AbstractId> {
 
+	
 	/** The id number. */
 	private int idNumber = 0;
 
